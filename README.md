@@ -1,40 +1,21 @@
-# Astro Starter Kit: Basics
+# Spotify Clone
 
-```sh
-npm create astro@latest -- --template basics
-```
+## 🗒️ A little description of the project
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Spotify clone made with **Astro**, **React.js**, and **Tailwind**. The idea of the project is to learn about the ViewTransitions API and the native web player API.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This clone uses **Zustand** to manage the global state of the currently playing song.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
-## 🚀 Project Structure
+## 📸 Screenshots
 
-Inside of your Astro project, you'll see the following folders and files:
+### Index page
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+![Index page screenshot](./public/screenshots/index.png)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Playlist Page
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
+![Playlist page screenshot](./public/screenshots/playlist.png)
 
 ## 🧞 Commands
 
@@ -49,6 +30,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
