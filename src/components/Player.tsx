@@ -173,7 +173,7 @@ export default function Player() {
   }, [isPlaying]);
 
   useEffect(() => {
-    const { song, songs, playlist } = currentMusic;
+    const { song, playlist } = currentMusic;
 
     if (!audioRef.current) return;
 

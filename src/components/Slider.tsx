@@ -9,7 +9,7 @@ export function Slider(props: ReactSliderProps<number>) {
       className={`w-52 h-5 flex items-center justify-center group cursor-pointer ${props.className ?? ""}`}
       thumbActiveClassName="outline-none"
       thumbClassName=""
-      renderThumb={(props, state) => (
+      renderThumb={(props) => (
         <div {...props}>
           <div className="bg-white rounded-full w-[14px] h-[14px] transition-all duration-300 peer" />
         </div>

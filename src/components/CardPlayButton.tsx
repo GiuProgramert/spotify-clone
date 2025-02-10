@@ -1,6 +1,5 @@
 import { Pause, Play } from "./Player";
 import { usePlayerStore } from "@/store/playerStore";
-import { allPlaylists } from "@/lib/data";
 
 export function CardPlayButton({ id, size = "small" }: { id: string, size?: "small" | "large"}) {
   const { currentMusic, isPlaying, setCurrentMusic, setIsPlaying } =
